@@ -1,4 +1,4 @@
-:root.theme_light {
+:root.theme-light {
     --main-text-weight: 400;
     --main-title-weight: 700;
     --background-main-color: 
@@ -26,7 +26,7 @@
 
 
 @media (prefers-color-scheme: light) {
-    :root.theme-auto {
+    :root.theme-light {
         --main-text-weight: 400;
         --main-title-weight: 700;
         --background-main-color: 
@@ -41,7 +41,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root.theme-auto {
+    :root.theme-dark {
         --main-text-weight: 465;
         --main-title-weight: 785;
         --background-main-color: 
