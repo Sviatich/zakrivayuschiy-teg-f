@@ -318,7 +318,7 @@ body {
 
 .like-icon.is-liked .main-body {
   fill: var(--fill-color);
-  transition: fill 0.3s ease 0.06s; 
+  transition: fill 0.3s ease 0.06s;
 }
 
 .like-icon.is-liked .contour {
@@ -358,7 +358,7 @@ dialog {
   line-height: 19px;
 }
 
-.dialog__button{
+.dialog__button {
   margin-block-start: 30px;
   width: 100%;
   text-align: center;
@@ -373,11 +373,13 @@ dialog {
   .save-button {
     flex-direction: column;
   }
+
   .floppy {
     width: 28px;
     height: 28px;
   }
-  .card__image_label{
+  
+  .card__image_label {
     top: 23px;
     right: 12px;
   }
